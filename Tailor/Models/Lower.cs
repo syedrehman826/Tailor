@@ -69,7 +69,9 @@ namespace Tailor.Models
                 u.FullFly = (string)sdr["FullFly"];
             }
             sdr.Close();
-            return u;
+            if(return u==null){
+               
+            };
         }
 
     }
