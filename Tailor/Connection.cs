@@ -14,7 +14,7 @@ namespace Tailor
         public static SqlConnection Get() {
             if (sc==null) {
                 sc=new SqlConnection();
-                sc.ConnectionString = "Data source=SYEDREHMAN-PC;initial catalog=TMSystem;integrated Security=SSPi";
+                sc.ConnectionString = @"Data source=DESKTOP-Q78RQP5\SQLEXPRESS;initial catalog=TMSystem;integrated Security=SSPi";
                 sc.Open();
             }
             return sc;
